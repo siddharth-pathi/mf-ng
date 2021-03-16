@@ -1,0 +1,10 @@
+.descContainer {
+    margin: 15px;
+    width: 70%;
+    background-color: lightgray;
+    padding: 15px;
+    cursor: pointer;
+}
+.descContainer span {
+    font-weight: bold;
+}

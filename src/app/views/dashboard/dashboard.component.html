@@ -1,0 +1,17 @@
+<div class="dbContainer">
+    <form [formGroup]="sltForm" (submit)="handleSubmit()">
+        <div class="listContainer">
+            <ul>
+                <li *ngFor="let listItem of items">
+                    <input type="checkbox" class="checkboxItem" value={{listItem.id}}
+                        formControlName="{{listItem.name}}">
+                    {{listItem.name}}
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <button type="submit" class="btn btn-primary">Next</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,27 @@
+.dbContainer {
+    margin: 50px auto;
+    width: 50%;
+}
+.listContainer {
+    border: 1px dotted gray;
+    height: auto;
+}
+.listContainer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.listContainer ul li {
+    margin: 15px;
+    background-color: lightgray;
+    padding: 5px;
+}
+input.checkboxItem {
+    height: 15px;
+    width: 15px;
+}
+.dbContainer button {
+    float: right;
+    margin: 15px 0;
+    width: 100px;
+}
